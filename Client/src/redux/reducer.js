@@ -41,17 +41,3 @@ const rootReducer = (state= initialState, {type, payload}) => {
 
 export default rootReducer;
 
-
-
-// const filtro2 = state.allCharacters
-// const reset = state.allCharacters.sort((a,b) => {
-//     if(payload === 'A'){
-//         return a.id - b.id
-//     }else if (payload === 'D'){
-//         return b.id - a.id
-//     }
-// })
-// return{
-//     ...state,
-//     myFavorites: reset
-// }
