@@ -1,0 +1,223 @@
+
+.navBar{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.random{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    width: 90px;
+    height: 25px;
+    border:none;
+    background-color: #18e6f5;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+.btn{
+    display: flex;
+    margin: 50px;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.normalButton{
+    margin-right: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    width: 130px;
+    height: 30px;
+    background-color: #ccfa00;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.activeButton{
+    border-color:#ccfa00;
+    color:#ccfa00;
+    background-color: black;
+}
+
+.logOut{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    width: 130px;
+    height: 30px;
+    border:none;
+    background-color: #d10c0c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .search{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .random{
+        display: flex;
+        width: 80px;
+        margin: 0;
+    }
+
+    .logOut{
+        margin-top: 5px;
+        margin-left: 0;
+        width: 100px;
+        height: 30px;
+    }
+
+    .normalButton{
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        width: 100px;
+        justify-content: center;
+    }
+
+    .btn{
+        display: flex;
+        margin: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 850px) and (min-width: 601px) {
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .search{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+   
+    .random{
+        width: 80px;
+        margin: 0;
+    }
+
+    .logOut{
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100px;
+        height: 30px;
+    }
+
+    .normalButton{
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        width: 100px;
+        justify-content: center;
+    }
+
+    .btn{
+        display: flex;
+        width: 60%;
+        margin: 0px;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) and (min-width: 851px) {
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .search{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+   
+    .random{
+        width: 110px;
+        margin: 0;
+    }
+
+    .logOut{
+        margin-top: 20px;
+        margin-left: 0;
+        width: 130px;
+        height: 30px;
+    }
+
+    .normalButton{
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        width: 130px;
+        justify-content: center;
+    }
+
+    .btn{
+        display: flex;
+        width: 80%;
+        margin: 0px;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1301px) {
+
+.random{
+    margin-left: 200px;
+}
+
+.btn{
+    margin: 10px;
+}
+
+.normalButton{
+    margin-right: 50px;
+    width: 120px;
+}
+
+.logOut{
+    width: 120px;
+}
+}

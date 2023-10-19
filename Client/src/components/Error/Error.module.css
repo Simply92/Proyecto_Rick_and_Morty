@@ -1,0 +1,75 @@
+  .allpage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagen{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: auto;
+  }
+  
+  .button {
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    color: #d10c0c;;
+    background-color: black;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .button:hover {
+    background-color: #d10c0c;
+    color: black;
+    border-color: black;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .imagen{
+      margin-top: 10px;
+      width: 350px;
+    }
+    .button {
+      border-radius: 10px;
+      margin-top: 10px;
+      width: 150px;
+      height: 25px;
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 850px) and (min-width: 601px) {
+    .imagen{
+      margin-top: 20px;
+      width: 600px;
+    }
+    .button {
+      border-radius: 10px;
+      margin-top: 10px;
+      width: 200px;
+      height: 30px;
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1300px) and (min-width: 851px) {
+    .imagen{
+      margin-top: 30px;
+      width: 700px;
+    }
+    .button {
+      border-radius: 15px;
+      margin-top: 20px;
+      width: 220px;
+      height: 40px;
+      font-size: 20px;
+    }
+  }

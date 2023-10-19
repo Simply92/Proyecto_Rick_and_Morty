@@ -1,0 +1,84 @@
+.Order{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fav{
+margin-top: 25px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.favFilter {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    background-color: antiquewhite;
+  }
+
+  .favReset {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    width: 130px;
+    height: 30px;
+    border:none;
+    background-color: #eb0422;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 600px){
+  .Order{
+    margin-top: 70px;
+  }
+  
+  .favFilter {
+    width: 130px;
+    font-size: 16px;
+  }
+  .favReset {
+    font-size: 12px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 601px){
+  .Order{
+    margin-top: 90px;
+  }
+
+  .favFilter {
+    width: 150px;
+    font-size: 16px;
+  }
+  .favReset {
+    font-size: 16px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 851px){
+  .Order{
+    margin-top: 100px;
+  }
+
+  .favFilter {
+    width: 200px;
+    font-size: 18px;
+  }
+  .favReset {
+    font-size: 16px;
+    width: 140px;
+  }
+}

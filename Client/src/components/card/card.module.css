@@ -1,0 +1,163 @@
+.divAlive{
+  border-width: 8px;
+  border-style:solid;
+  border-color: #3fe216;
+  width: 300px;
+  height: auto;
+  background-color: #3fe216;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+  .status{
+    position: absolute;
+    justify-content: center;
+    color: #3fe216;
+    display: flex;
+    top: -8%;
+    width: 120px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+  }
+  .name{
+    position: absolute;
+    top: 61%;
+    left: 0;
+    background-color: rgba(0,0,0,0.9);
+    width: 300px;
+    border-radius: 5px;
+    color: #3fe216;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+.divDead{
+  border-width: 8px;
+  border-style:solid;
+  border-color: #ff0800;
+  width: 300px;
+  height: auto;
+  background-color: #ff0800;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+  .status{
+    position: absolute;
+    justify-content: center;
+    color: #ff0800;
+    display: flex;
+    top: -8%;
+    width: 120px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+  }
+  .name{
+    position: absolute;
+    top: 61%;
+    left: 0;
+    background-color: rgba(0,0,0,0.9);
+    width: 300px;
+    border-radius: 5px;
+    color: #ff0800;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+.divUnknown{
+  border-width: 8px;
+  border-style:solid;
+  border-color: #FFD700;
+  width: 300px;
+  height: auto;
+  background-color: #FFD700;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+  .status{
+    position: absolute;
+    justify-content: center;
+    color: #FFD700;
+    display: flex;
+    top: -8%;
+    width: 120px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+  }
+  .name{
+    position: absolute;
+    top: 61%;
+    left: 0;
+    background-color: rgba(0,0,0,0.9);
+    width: 300px;
+    border-radius: 5px;
+    color: #FFD700;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+
+
+.btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: red;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: red;
+  color: black;
+}
+
+.datos{ 
+  font-size: 15px;
+  color: black;
+  display: flex;
+  width: 300px;
+  height: 140px;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.fav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.btnFav{
+  display: flex;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  background-color: black;
+}
